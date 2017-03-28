@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Home Page</title>
+        <style>
+          h1, h2 {
+            text-align: center;
+          }
+          h2 {
+            border: solid 2px;
+          }
+          #container {
+            margin: auto;
+          }
+          div {
+            width: 80%;
+          }
+          #paragraphs {
+            border-top: 1px solid;
+          }
+          #first {
+            float: left;
+            width: 48%;
+          }
+          #second {
+            float: right;
+            width: 48%;
+          }
+        </style>
+    </head>
+    <body>
+      <div id="container">
+          <div>
+              <h1>This is the blog home page!</h1>
+          </div>
+          <div>
+              <h2>Placeholder for banner image</h2>
+          </div>
+          <div id="navigation">
+              <%= link_to 'About', about_path %>
+          </div>
+            <div id="paragraphs">
+                <div id="first">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div id="second">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+    </body>
+</html>
